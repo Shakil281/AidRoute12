@@ -95,12 +95,18 @@ AidRoute is an AI-powered triage and logistics coordination system designed to s
 https://aidroute12git-70156665-389aa.web.app/
 
 
+Here is the glimpse of our application deployment: 
+
+<img width="1866" height="913" alt="image" src="https://github.com/user-attachments/assets/7bd50bb8-36de-4cae-8525-9498b6ab053f" />
+
+
 
 
 
 ###  Installation  
 ```bash
 npm install
+
 
 
 
