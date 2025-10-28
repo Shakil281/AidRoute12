@@ -42,19 +42,10 @@ npm install
 
 ### Development
 
-\`\`\`bash
-npm run dev
-\`\`\`
-
-Visit http://localhost:3000
+Visit https://aidroute12git-70156665-389aa.web.app/
 
 The app should automatically open in your browser. If not, navigate to the URL manually.
 
-### Build
-
-\`\`\`bash
-npm run build
-\`\`\`
 
 ## Environment Variables
 
@@ -125,3 +116,4 @@ The frontend expects the following API endpoints:
 ## License
 
 MIT
+
