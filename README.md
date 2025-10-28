@@ -1,119 +1,52 @@
-# AidRoute - AI Tissue Triage Platform
+# 🧠 AidRoute — AI Tissue Triage Platform  
 
-A modern, interactive, and responsive frontend for AI-powered tissue triage and logistics coordination platform.
+**AidRoute** is a modern, interactive, and responsive **AI-powered tissue triage and logistics coordination platform** built for hospitals, labs, and transport teams to streamline urgent medical workflows.
 
-## Features
+---
 
-✨ **Modern UI/UX**
-- Clean, futuristic medical-tech design
-- Cool blue-white palette with cyan-indigo gradients
-- Smooth animations with Framer Motion
-- Dark mode support
+## ✨ Overview  
 
-📊 **Pages & Components**
+AidRoute combines elegant UI design with powerful data visualization and AI-driven logistics to accelerate decision-making in healthcare triage systems.
 
-- **Login/Signup Page**: Role-based authentication with animated AI background
-- **Dashboard**: Overview cards, AI status indicators, urgent requests, and recommendations
-- **Request Management**: Live requests with table/card view toggle, filters, and AI triage triggers
-- **Route Optimization**: Interactive map interface with live route updates (Google Maps ready)
-- **Reports**: Visual analytics with Recharts (trends, distribution, response times)
-- **Ethics & Compliance**: AI fairness checks, compliance monitoring, and audit reports
-- **Settings**: Notification preferences, theme toggles, privacy controls
+---
 
-🔧 **Tech Stack**
+## 🌟 Features  
 
-- React 18
-- Vite
-- TailwindCSS
-- Framer Motion
-- React Router v6
-- Recharts
-- React Hot Toast
-- Lucide React Icons
-- Axios
+### 🖥️ **Modern UI/UX**  
+- Clean, futuristic **medical-tech aesthetic**  
+- Cool **blue-white palette** with **cyan–indigo gradients**  
+- Smooth **Framer Motion** animations and transitions  
+- **Dark mode** for accessibility and comfort  
 
-## Getting Started
+### 📊 **Core Pages & Components**  
 
-### Installation
+| Section | Highlights |
+|----------|-------------|
+| **Login / Signup** | Role-based authentication with animated AI background |
+| **Dashboard** | Overview cards, AI status indicators, urgent requests, recommendations |
+| **Request Management** | Live requests with table/card toggle, filters, AI triage triggers |
+| **Route Optimization** | Interactive Google Maps-based routing with live updates |
+| **Reports** | Rich analytics via **Recharts** (trends, response times, distributions) |
+| **Ethics & Compliance** | AI fairness and audit tracking for accountability |
+| **Settings** | Notification preferences, themes, and privacy controls |
 
-\`\`\`bash
+---
+
+## 🧩 Tech Stack  
+
+- ⚛️ **React 18** + **Vite** for blazing-fast development  
+- 🎨 **TailwindCSS** for elegant, responsive design  
+- 💫 **Framer Motion** for fluid animations  
+- 🌐 **React Router v6** for route management  
+- 📈 **Recharts** for data visualization  
+- 🔔 **React Hot Toast** for real-time feedback  
+- 🧭 **Lucide React Icons** for crisp iconography  
+- ⚙️ **Axios** for API communication  
+
+---
+
+## 🚀 Getting Started  
+
+### 1️⃣ Installation  
+```bash
 npm install
-\`\`\`
-
-### Development
-
-Visit https://aidroute12git-70156665-389aa.web.app/
-
-The app should automatically open in your browser. If not, navigate to the URL manually.
-
-
-## Environment Variables
-
-Copy `.env.example` to `.env` and configure:
-
-\`\`\`bash
-cp .env.example .env
-\`\`\`
-
-Then update the values:
-
-\`\`\`
-VITE_API_URL=http://localhost:8000/api
-VITE_GOOGLE_MAPS_API_KEY=your_api_key_here
-\`\`\`
-
-## Project Structure
-
-\`\`\`
-src/
-├── components/          # Reusable components
-│   ├── Layout.jsx
-│   ├── Sidebar.jsx
-│   ├── Header.jsx
-│   ├── EmergencyModal.jsx
-│   └── NotificationPanel.jsx
-├── contexts/            # React contexts
-│   └── ThemeContext.jsx
-├── pages/               # Page components
-│   ├── Login.jsx
-│   ├── Dashboard.jsx
-│   ├── Requests.jsx
-│   ├── Routes.jsx
-│   ├── Reports.jsx
-│   ├── Ethics.jsx
-│   └── Settings.jsx
-├── App.jsx              # Main app component
-├── main.jsx             # Entry point
-└── index.css            # Global styles
-\`\`\`
-
-## Design Highlights
-
-### Color Palette
-- **Primary**: Cyan (#06b6d4) to Blue (#3b82f6)
-- **Accent**: Indigo (#6366f1) to Purple (#8b5cf6)
-- **Dark**: Slate 800-900
-- **Glass Effect**: White with backdrop blur
-
-### Animations
-- Page transitions with Framer Motion
-- Hover effects on interactive elements
-- Loading states and toast notifications
-- Pulse animations for active indicators
-
-## Backend Integration
-
-The frontend expects the following API endpoints:
-
-- \`POST /api/auth/login\` - User authentication
-- \`GET /api/requests\` - Fetch tissue requests
-- \`POST /api/triage\` - Trigger AI triage
-- \`GET /api/routes\` - Fetch delivery routes
-- \`POST /api/optimize\` - Optimize routes
-- \`GET /api/reports\` - Analytics data
-- \`GET /api/ethics\` - Compliance metrics
-
-## License
-
-MIT
-
