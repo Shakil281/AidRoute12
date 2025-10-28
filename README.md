@@ -1,52 +1,94 @@
 # 🧠 AidRoute — AI Tissue Triage Platform  
 
-**AidRoute** is a modern, interactive, and responsive **AI-powered tissue triage and logistics coordination platform** built for hospitals, labs, and transport teams to streamline urgent medical workflows.
+[![React](https://img.shields.io/badge/React-18-blue?logo=react)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-Build-FCC72C?logo=vite)](https://vitejs.dev/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-Design-38BDF8?logo=tailwindcss)](https://tailwindcss.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Deployed](https://img.shields.io/badge/Live_Demo-Available-success)](https://aidroute12git-70156665-389aa.web.app/)
 
 ---
 
-## ✨ Overview  
-
-AidRoute combines elegant UI design with powerful data visualization and AI-driven logistics to accelerate decision-making in healthcare triage systems.
+A **modern, interactive, and responsive frontend** for an **AI-powered tissue triage and logistics coordination platform**.  
+Built to streamline healthcare operations through intelligent routing, triage automation, and real-time analytics.
 
 ---
 
-## 🌟 Features  
+## ✨ Features  
 
-### 🖥️ **Modern UI/UX**  
-- Clean, futuristic **medical-tech aesthetic**  
+### 🎨 **Modern UI/UX**  
+- Clean, futuristic **medical-tech design**  
 - Cool **blue-white palette** with **cyan–indigo gradients**  
-- Smooth **Framer Motion** animations and transitions  
-- **Dark mode** for accessibility and comfort  
-
-### 📊 **Core Pages & Components**  
-
-| Section | Highlights |
-|----------|-------------|
-| **Login / Signup** | Role-based authentication with animated AI background |
-| **Dashboard** | Overview cards, AI status indicators, urgent requests, recommendations |
-| **Request Management** | Live requests with table/card toggle, filters, AI triage triggers |
-| **Route Optimization** | Interactive Google Maps-based routing with live updates |
-| **Reports** | Rich analytics via **Recharts** (trends, response times, distributions) |
-| **Ethics & Compliance** | AI fairness and audit tracking for accountability |
-| **Settings** | Notification preferences, themes, and privacy controls |
+- Smooth **Framer Motion** animations  
+- **Dark mode** support for accessibility  
 
 ---
 
-## 🧩 Tech Stack  
+### 📊 **Pages & Components**  
 
-- ⚛️ **React 18** + **Vite** for blazing-fast development  
-- 🎨 **TailwindCSS** for elegant, responsive design  
-- 💫 **Framer Motion** for fluid animations  
-- 🌐 **React Router v6** for route management  
-- 📈 **Recharts** for data visualization  
-- 🔔 **React Hot Toast** for real-time feedback  
-- 🧭 **Lucide React Icons** for crisp iconography  
-- ⚙️ **Axios** for API communication  
+| Page / Module | Description |
+|----------------|--------------|
+| **Login / Signup** | Role-based authentication with animated AI background |
+| **Dashboard** | Overview cards, AI status indicators, urgent requests, and recommendations |
+| **Request Management** | Live requests with table/card view toggle, filters, and AI triage triggers |
+| **Route Optimization** | Interactive map interface with live route updates *(Google Maps ready)* |
+| **Reports** | Visual analytics using **Recharts** (trends, distributions, response times) |
+| **Ethics & Compliance** | AI fairness checks, compliance monitoring, and audit reports |
+| **Settings** | Notification preferences, theme toggles, and privacy controls |
+
+---
+
+## 🔧 Tech Stack  
+
+- ⚛️ **React 18** — Component-based UI  
+- ⚡ **Vite** — Lightning-fast build tool  
+- 🎨 **TailwindCSS** — Utility-first styling  
+- 💫 **Framer Motion** — Animations and transitions  
+- 🌐 **React Router v6** — Routing and navigation  
+- 📈 **Recharts** — Data visualization  
+- 🔔 **React Hot Toast** — Real-time notifications  
+- 🧭 **Lucide React Icons** — Modern icon set  
+- ⚙️ **Axios** — HTTP client for backend API integration  
+
+
+src/
+├── components/          # Reusable components
+│   ├── Layout.jsx
+│   ├── Sidebar.jsx
+│   ├── Header.jsx
+│   ├── EmergencyModal.jsx
+│   └── NotificationPanel.jsx
+│
+├── contexts/            # React contexts
+│   └── ThemeContext.jsx
+│
+├── pages/               # Page components
+│   ├── Login.jsx
+│   ├── Dashboard.jsx
+│   ├── Requests.jsx
+│   ├── Routes.jsx
+│   ├── Reports.jsx
+│   ├── Ethics.jsx
+│   └── Settings.jsx
+│
+├── App.jsx              # Main app component
+├── main.jsx             # Entry point
+└── index.css            # Global styles
+
+
+ | Method | Endpoint          | Description                           |
+| ------ | ----------------- | ------------------------------------- |
+| `POST` | `/api/auth/login` | User authentication                   |
+| `GET`  | `/api/requests`   | Fetch tissue requests                 |
+| `POST` | `/api/triage`     | Trigger AI triage                     |
+| `GET`  | `/api/routes`     | Fetch delivery routes                 |
+| `POST` | `/api/optimize`   | Optimize delivery routes              |
+| `GET`  | `/api/reports`    | Retrieve analytics data               |
+| `GET`  | `/api/ethics`     | Fetch compliance and fairness metrics |
 
 ---
 
 ## 🚀 Getting Started  
 
-### 1️⃣ Installation  
+### 🧩 Installation  
 ```bash
 npm install
