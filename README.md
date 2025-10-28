@@ -1,4 +1,4 @@
-# 🧠 AidRoute — AI Tissue Triage Platform  
+#  AidRoute — AI Tissue Triage Platform  
 
 [![React](https://img.shields.io/badge/React-18-blue?logo=react)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-Build-FCC72C?logo=vite)](https://vitejs.dev/)
@@ -86,9 +86,14 @@ src/
 | `GET`  | `/api/ethics`     | Fetch compliance and fairness metrics |
 
 ---
+**Development**
+AidRoute is an AI-powered triage and logistics coordination system designed to streamline the distribution of critical medical tissue, organs, and blood supplies across hospitals and community clinics during emergencies. Built on NVIDIA Nemotron (nano-9B-v2) via NVIDIA NIM. Anyone can access this by click on this :
+
+
 
 ## 🚀 Getting Started  
 
 ### 🧩 Installation  
 ```bash
 npm install
+
