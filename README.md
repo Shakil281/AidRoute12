@@ -86,14 +86,20 @@ src/
 | `GET`  | `/api/ethics`     | Fetch compliance and fairness metrics |
 
 ---
+##  Getting Started 
+
 **Development**
+
 AidRoute is an AI-powered triage and logistics coordination system designed to streamline the distribution of critical medical tissue, organs, and blood supplies across hospitals and community clinics during emergencies. Built on NVIDIA Nemotron (nano-9B-v2) via NVIDIA NIM. Anyone can access this by click on this :
+https://aidroute12git-70156665-389aa.web.app/dashboard
 
 
 
-## 🚀 Getting Started  
 
-### 🧩 Installation  
+
+###  Installation  
 ```bash
 npm install
+
+
 
